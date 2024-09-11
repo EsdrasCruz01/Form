@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+   
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwcvQsM8-g8UhqIkYhqovspXo29w2py-MZLaIBlHXL9w6X15KhrwmQrEplNiMeVNnrkZsYznXjYFlLXwJ0a-cEI5OQv7_MUv1MF5xc434aM88hZZ-JnU-Id8EGWHOcAXCBAkEZL3VKjCWE-BtfLP7p8UoO50SZ0rOGd2OtV1gz2hDOfxd3UP6AG3TViQ/s1600-rw/4k-pc-wallpaper-ai-art.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  label{
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 8px;
+  }
+
+  input[type="text"],select{
+    width: 100%;
+    border: 1px solid #ffff ;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  input[type="text"]:focus,select:focus{
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgb(0,86,179,0.2);
+  }
+
+  .Conteiner{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  h1{
+    margin-bottom: 30px;
+
+  }
+
+  button{
+
+    background-color: #0056b3;
+    color: aliceblue;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease,trasform 0.2s ease;
+    align-self: center;
+   
+  }
+
+  button:hover{
+    background-color: #004494;
+    transform: scale(1.05);
+  }
